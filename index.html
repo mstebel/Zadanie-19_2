@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="walidacja hasła">
+    <title>Hasło</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<form>
+    <div class="password-validation">
+        <label for="user-password">Hasło</label>
+        <input class="password-input" id="user-password" type="password">
+        <div class="error-mesagge">
+            <div id="small-letter">Min 1 mała litera</div>
+            <div id="capital-letter">Min 1 duża litera</div>
+            <div id="eight-symbols">Min 8 znaków</div>
+            <div id="special-character">Min 1 znak specjalny</div>
+        </div>
+    </div>
+    <div class="password-validation">
+        <label for="password-confirmation">Powtórz hasło</label>
+        <input class="password-input" id="password-confirmation" type="password">
+        <div class="error-mesagge" id="password-confirmation-error-message">Hasła są różne</div>
+    </div>
+</form>
+<script type="text/javascript" src="script.js"></script>
+</body>
+</html>
