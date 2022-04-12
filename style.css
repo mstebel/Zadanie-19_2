@@ -1,0 +1,21 @@
+.password-validation {
+    display: flex;
+    flex-direction: column;
+    font-size:large;
+    margin: 20px;
+}
+
+body {
+    margin-top: 50px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.password-input {
+    height: 25px;
+    width: 150px;
+    margin-top: 5px;
+}
+
+.error-mesagge {
+    color: red;
+}
